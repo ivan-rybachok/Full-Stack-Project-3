@@ -1,0 +1,40 @@
+@import "./_globals";
+
+.main {
+    height:100%;
+    a {
+        color:$accent-color;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    
+}
+
+.header {
+    @include display-flex();
+    flex-flow: row wrap;
+    align-items:center;
+
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:10px;
+    color:
+    #616161;
+}
+
+.footer {
+    margin-top:40px;
+    margin-bottom:10px;
+    color:#616161;
+    
+}
+
+.color-footer{
+    color:$accent-color;
+}
+
+.error {
+    padding-top: 20px;
+}

@@ -1,0 +1,60 @@
+@import "./../_globals";
+// @import "~bootstrap/scss/bootstrap";
+.buttons__bottom {
+    padding-top: 15px;
+    // color:$accent_color;
+}
+
+.paragraph {
+    padding-top: 15px;
+    font-size:18px;
+    color:#616161;
+}
+
+.form-control-lg {
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    // text-align: left; 
+    background-color: #e6e6e6;
+
+}
+
+.btn__style {
+    background-color: $accent_color;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    &:hover {
+        background-color:#1a624a;
+    }
+}
+
+.btn__style:disabled{
+    background-color: #a8a8a8;
+    border-radius: 8px;
+    border: none;
+    color: #d4d4d4;
+    padding: 8px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+textarea {
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    // text-align: left; 
+    background-color: #e6e6e6;
+
+}
