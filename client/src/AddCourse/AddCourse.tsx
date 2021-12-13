@@ -20,7 +20,7 @@ const AddCourse = ({fetchData, setLoading }:ComponentProps ) => {
         setCode(e.target.value);
     }
     
-    const SUBMIT_SCRIPT = "http://localhost:8080/post/course"
+    const SUBMIT_SCRIPT = "/post/course"
 
     // had to use navigate because usehistory only works with old versions 
     const navigate:any = useNavigate();

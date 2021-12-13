@@ -19,7 +19,7 @@ const EditTech = ({technologies,courses,fetchData,setLoading}:ComponentProps ) =
 
     // passing in each of the things to show in the boxes same way like I did for the course
 
-    const SUBMIT_SCRIPT:string = "http://localhost:8080/post/edit/tech";
+    const SUBMIT_SCRIPT:string = "/post/edit/tech";
     const [techName, setTechName] = React.useState<string | undefined>(technology?.name);
     const [techDescription, setTechDescription] = React.useState<string | undefined>(technology?.description);
     const [techDifficulty, setTechDifficulty] = React.useState<number | undefined>(technology?.difficulty);

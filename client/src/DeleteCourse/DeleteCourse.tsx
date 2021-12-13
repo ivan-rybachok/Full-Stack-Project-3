@@ -11,7 +11,7 @@ const DeleteCourse = ({courses,fetchData}:ComponentProps ) => {
     // isolate the id route parameter
     let { id } = useParams<string>();
     console.log("Received id: " + id);
-    const SUBMIT_SCRIPT:string = "http://localhost:8080/delete/course";
+    const SUBMIT_SCRIPT:string = "/delete/course";
 
     // find the technology object with the id route parameter
     let course:(Courses | undefined) = courses.find(item => item._id === id);

@@ -40,7 +40,7 @@ const AddTech = ({technologies,courses, fetchData, setLoading}:ComponentProps ) 
     let { id } = useParams<string>();
     console.log("Received id: " + id);
 
-    const SUBMIT_SCRIPT = "http://localhost:8080/post/tech"
+    const SUBMIT_SCRIPT = "/post/tech"
     
     // find the technology object with the id route parameter
     let technology:(Technology | undefined) = technologies.find(item => item._id === id);

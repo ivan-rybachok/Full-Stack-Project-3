@@ -18,7 +18,7 @@ const DeleteTech = ( {technologies, fetchData}:ComponentProps ) => {
 
     const navigate:any = useNavigate();
 
-    const SUBMIT_SCRIPT:string = "http://localhost:8080/delete/tech";
+    const SUBMIT_SCRIPT:string = "/delete/tech";
 
     const OkButton = () => {
       

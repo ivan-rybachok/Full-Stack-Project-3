@@ -19,7 +19,7 @@ const EditCourse = ({courses,fetchData, setLoading }:ComponentProps ) => {
 
     console.log("here it is" + course);
     
-    const SUBMIT_SCRIPT:string = "http://localhost:8080/post/edit/course";
+    const SUBMIT_SCRIPT:string = "/post/edit/course";
 
     // looked back at the previous examples couldn't find a better way to satisfy the error with undefined 
     // here i am passing in the correct course name that was clicked to be edited in order to show in the input
